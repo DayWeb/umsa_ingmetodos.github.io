@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>readme</title>
+</head>
+<body>
+
+<h2>Description:</h2>
+<p style="text-indent:28px">
+	For security reasons, browser doesn't allow users to load projects containing flash or webGL locally. You must upload the projects to web server and view the project by visiting http URL. 
+	Easypano offers a free website for uploading works from users who don't have own server. You could upload panorama images or virtual tours to <a href="http://sky.easypano.com">Ep-Sky</a> or synchronize the project directly to EP-Sky server through the synchronization function of the <a href="http://www.easypano.com/VR-Tour-Maker.html">VRTourMaker</a>  publishing interface.
+</p>
+
+<h2>Browser Requirement:</h2>
+<p style="text-indent:28px">
+	Based on webGL technology, the virtual tours require IE 10.0 or higher, Safari 5.0 or higher, Chrome 21.0 or higher when viewed on a PC or Mac. Viewed on iPhone, it ,need iPhone 4 or above and it should Android 5.0 or higher when viewed on an Android device.
+</p>
+
+<h2>How to embed the publishing result in webpage?</h2>
+<ol>
+<li>
+	Copy and paste the script.
+<pre>
+&lt;a href="#" onClick="javascript:window.open(
+'pano.html',
+'_blank',
+'status=yes,top=0,left=0,width=640,height=480');"&gt;
+Panoramic Name
+&lt;/a&gt;
+</pre>
+<b>Note:：</b>"pano.html" needs to be replaced with the name of the panorama page you want to publish.
+</li>
+<li>
+Upload the folder of the publishing result to your server and get the URL of the playback page directly.<br/>
+<b>Note:</b>The file structure should remain unchanged. It is recommended to compress the file to be uploaded and then extract the URL of the playback file.
+</li>
+</ol>
+
+</body>
+</html>
