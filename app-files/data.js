@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-sala-de-espera",
-      "name": "SALA DE ESPERA",
+      "id": "0-1",
+      "name": "1",
       "levels": [
         {
           "tileSize": 256,
@@ -12,13 +12,9 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
         }
       ],
-      "faceSize": 1000,
+      "faceSize": 320,
       "initialViewParameters": {
         "pitch": 0,
         "yaw": 0,
@@ -26,23 +22,24 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.6109425391967545,
-          "pitch": 0.19243536225190105,
+          "yaw": 2.296987235936931,
+          "pitch": 0.32943405240165724,
           "rotation": 0,
-          "target": "1-triage"
-        },
-        {
-          "yaw": 0.7927743006198931,
-          "pitch": 0.03453567558627846,
-          "rotation": 0,
-          "target": "2-entrada-emergencias"
+          "target": "1-2"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 2.9237494231170498,
+          "pitch": -0.4115611961510375,
+          "title": "<br>",
+          "text": "<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">El servicio en una sala de emergencias de un hospital no es una planta manufacturera pero, distinguiendo las características de este servicio, podemos decir que su disposición está orientada al proceso, en la que los puestos de trabajo están agrupados funcionalmente.</font></font><br>"
+        }
+      ]
     },
     {
-      "id": "1-triage",
-      "name": "TRIAGE",
+      "id": "1-2",
+      "name": "2",
       "levels": [
         {
           "tileSize": 256,
@@ -52,13 +49,9 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
         }
       ],
-      "faceSize": 1000,
+      "faceSize": 320,
       "initialViewParameters": {
         "pitch": 0,
         "yaw": 0,
@@ -66,54 +59,39 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.9170024458329493,
-          "pitch": 0.16293961215920838,
+          "yaw": -0.8117122835009614,
+          "pitch": 0.21554142549902444,
           "rotation": 0,
-          "target": "0-sala-de-espera"
+          "target": "0-1"
         }
       ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-entrada-emergencias",
-      "name": "ENTRADA EMERGENCIAS",
-      "levels": [
+      "infoHotspots": [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          "yaw": 0.11327336027992274,
+          "pitch": 0.0909708592522307,
+          "title": "<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">ADMISION Y CONTROL</font></font>",
+          "text": "<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">Se realiza el control de la documentacion para facilitar el acceso del usuario a la asistencia sanitaria, asi como de gestionar la historia clinica.</font></font>"
         },
         {
-          "tileSize": 512,
-          "size": 512
+          "yaw": 1.8581479196209374,
+          "pitch": -0.1942792599146319,
+          "title": "<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">TRIAGE</font></font>",
+          "text": "<div><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">CLASIFICACION DEL TRIAGE</font></font></div><div><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">COLOR </font><font style=\"vertical-align: inherit;\">NIVEL DE EMERGENCIA </font></font><span style=\"white-space:pre\">\t</span><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">TIPO DE MERGENCIA</font></font><span style=\"white-space:pre\">\t</span><font style=\"vertical-align: inherit;\"></font></div><div><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">1.&nbsp;</font></font><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">RESUCITACION </font></font><span style=\"white-space:pre\">\t</span><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">&nbsp; &nbsp; &nbsp;</font></font></div><div><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">&nbsp; &nbsp; &nbsp;ROJO</font></font></div><div><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">2.&nbsp;</font></font><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">EMERGENCIA CASO GRAVE&nbsp; &nbsp; &nbsp; &nbsp; </font></font><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">NARANJA</font></font></div><div><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">3.&nbsp;</font></font><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">EMERGENCIA MODERADA </font></font><span style=\"white-space:pre\">\t</span><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">&nbsp; &nbsp; &nbsp; AMARILLO</font></font></div><div><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">4.&nbsp;</font></font><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">EMERGENCIA LEVE&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </font></font><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">VERDE</font></font></div>"
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          "yaw": -2.4552086715119223,
+          "pitch": 0.007972207450221092,
+          "title": "<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">SALA DE ESPERA</font></font>",
+          "text": "<p class=\"MsoNormal\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">Su función es facilitar el acceso de los pacientes y sus familiares, facilitar un lugar de espera para la familia y proporcionar la información necesaria. </font><font style=\"vertical-align: inherit;\">Esta sala debe ser espaciosa y estar dotada de megafonía, teléfono, aseos y fuentes de agua.</font></font><o:p></o:p></p>"
         }
-      ],
-      "faceSize": 1000,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.011242549426048853,
-          "pitch": 0.2763340139848758,
-          "rotation": 0,
-          "target": "0-sala-de-espera"
-        }
-      ],
-      "infoHotspots": []
+      ]
     }
   ],
   "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
-    "fullscreenButton": false,
+    "fullscreenButton": true,
     "viewControlButtons": false
   }
 };
